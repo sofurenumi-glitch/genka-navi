@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
+<html lang="ja"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>原価ナビ</title>
@@ -172,7 +171,7 @@ input[type=range]{width:100%;accent-color:var(--red)}
 </style>
 </head>
 <body>
-<script id="gn-data" type="application/json"></script>
+<script id="gn-data" type="application/json">{"ings":[{"id":1,"name":"麺","cat":"焼きそば","price":65,"qty":1,"bu":"玉","usage":1,"uu":"玉"},{"id":2,"name":"麺加工手数料","cat":"焼きそば","price":57,"qty":1,"bu":"玉","usage":1,"uu":"玉"},{"id":3,"name":"豚肉","cat":"焼きそば","price":1300,"qty":1000,"bu":"g","usage":50,"uu":"g"},{"id":4,"name":"もやし","cat":"焼きそば","price":187,"qty":1000,"bu":"g","usage":150,"uu":"g"},{"id":5,"name":"タレ","cat":"焼きそば","price":27393,"qty":18000,"bu":"ml","usage":30,"uu":"ml"},{"id":6,"name":"ネギ","cat":"焼きそば","price":700,"qty":1000,"bu":"g","usage":5,"uu":"g"},{"id":7,"name":"胡椒","cat":"焼きそば","price":1058,"qty":1000,"bu":"g","usage":0.6,"uu":"g"},{"id":8,"name":"ラード","cat":"焼きそば","price":6305,"qty":18000,"bu":"ml","usage":10,"uu":"ml"},{"id":9,"name":"かんこく唐がらし","cat":"ふりかけ","price":2440,"qty":1000,"bu":"g","usage":20,"uu":"g"},{"id":10,"name":"花椒","cat":"ふりかけ","price":3682,"qty":1000,"bu":"g","usage":28,"uu":"g"},{"id":11,"name":"陳皮","cat":"ふりかけ","price":2150,"qty":1000,"bu":"g","usage":20,"uu":"g"},{"id":12,"name":"ゆず","cat":"ふりかけ","price":1080,"qty":100,"bu":"g","usage":8,"uu":"g"},{"id":13,"name":"ジンジャー","cat":"ふりかけ","price":1292,"qty":100,"bu":"g","usage":8,"uu":"g"},{"id":14,"name":"ごま","cat":"ふりかけ","price":1100,"qty":1000,"bu":"g","usage":40,"uu":"g"},{"id":15,"name":"砂糖","cat":"ふりかけ","price":300,"qty":1000,"bu":"g","usage":60,"uu":"g"},{"id":16,"name":"塩","cat":"ふりかけ","price":150,"qty":1000,"bu":"g","usage":12,"uu":"g"},{"id":17,"name":"アミノ酸","cat":"ふりかけ","price":700,"qty":1000,"bu":"g","usage":60,"uu":"g"},{"id":18,"name":"ガーリック","cat":"ふりかけ","price":239,"qty":100,"bu":"g","usage":40,"uu":"g"},{"id":19,"name":"油","cat":"ふりかけ","price":689,"qty":1000,"bu":"ml","usage":60,"uu":"ml"},{"id":20,"name":"白米(炊飯後)","cat":"副材料","price":3550,"qty":5000,"bu":"g","usage":68,"uu":"g"},{"id":21,"name":"梅干し","cat":"副材料","price":1080,"qty":270,"bu":"個","usage":1,"uu":"個"},{"id":22,"name":"コンブ","cat":"副材料","price":1479,"qty":1000,"bu":"g","usage":5,"uu":"g"},{"id":23,"name":"餃子","cat":"副材料","price":6440,"qty":500,"bu":"個","usage":8,"uu":"個"},{"id":24,"name":"つぼ漬け","cat":"副材料","price":221,"qty":1000,"bu":"g","usage":8,"uu":"g"},{"id":25,"name":"海苔","cat":"副材料","price":2894,"qty":600,"bu":"枚","usage":2,"uu":"枚"},{"id":26,"name":"チャック袋","cat":"副材料","price":1550,"qty":50,"bu":"枚","usage":1,"uu":"枚"},{"id":27,"name":"ラベルシール","cat":"副材料","price":600,"qty":50,"bu":"枚","usage":1,"uu":"枚"},{"id":28,"name":"生たまご","cat":"トッピング","price":400,"qty":10,"bu":"個","usage":1,"uu":"個"},{"id":29,"name":"マヨネーズ","cat":"トッピング","price":500,"qty":1000,"bu":"g","usage":10,"uu":"g"},{"id":30,"name":"ランチパック小","cat":"その他","price":1062,"qty":50,"bu":"個","usage":1,"uu":"g"},{"id":31,"name":"ランチパック大","cat":"その他","price":1663,"qty":50,"bu":"個","usage":1,"uu":"g"}],"menus":[{"id":1,"name":"焼きそば 並盛り","price":1050,"iids":[1,2,3,4,5,6,7,8]},{"id":2,"name":"焼きそば 大盛り","price":1350,"iids":[1,2,3,4,5,6,7,8]},{"id":3,"name":"ごはんセット(並)","price":1270,"iids":[1,2,3,4,5,6,7,8,20,21,24]},{"id":4,"name":"おにぎりセット(並)","price":1380,"iids":[1,2,3,4,5,6,7,8,20,22,25]},{"id":5,"name":"揚げ餃子","price":440,"iids":[23]},{"id":6,"name":"ふりかけ 80g×6","price":4800,"iids":[9,10,11,12,13,14,15,16,17,18,19,26,27]},{"id":7,"name":"焼そば並（マヨ","price":1150,"iids":[1,4,2,5,6,3,7,8,29]}],"alerts":{},"globalThresh":35}</script>
 <div class="topbar">
   <div class="topbar-logo">原価ナビ <span id="unsaved-dot" style="display:none;width:8px;height:8px;background:#E8690A;border-radius:50%;vertical-align:middle;margin-left:4px"></span></div>
   <div class="topbar-right">
@@ -186,7 +185,7 @@ input[type=range]{width:100%;accent-color:var(--red)}
       <div class="sidebar-logo">原価ナビ</div>
       <div class="sidebar-sub">飲食店原価管理</div>
     </div>
-    <nav class="sidebar-nav" id="sidebar-nav"></nav>
+    <nav class="sidebar-nav" id="sidebar-nav"><div class="snav-item active" data-page="dash"><span class="snav-icon">🏠</span>ホーム</div><div class="snav-item " data-page="ing"><span class="snav-icon">📦</span>材料</div><div class="snav-item " data-page="menu"><span class="snav-icon">🍜</span>メニュー</div><div class="snav-item " data-page="sim"><span class="snav-icon">📊</span>シミュレ</div><div class="snav-item " data-page="rev"><span class="snav-icon">🎯</span>逆算</div><div class="snav-item " data-page="set"><span class="snav-icon">🧩</span>セット</div><div class="snav-item " data-page="alert"><span class="snav-icon">🔔</span>設定</div></nav>
     <div class="sidebar-footer">
       <div class="sidebar-actions">
         <button class="sidebar-action-btn" id="sb-save">💾 ファイルに保存</button>
@@ -197,10 +196,10 @@ input[type=range]{width:100%;accent-color:var(--red)}
   <div style="flex:1;min-width:0">
     <div class="scroll-area">
       <div id="page-dash" class="page active">
-        <div id="dash-alerts"></div>
-        <div class="kpi-grid" id="dash-kpis"></div>
+        <div id="dash-alerts"><div class="alert alert-ok">✅ 全メニュー正常範囲内</div></div>
+        <div class="kpi-grid" id="dash-kpis"><div class="kpi"><div class="kpi-label">登録材料</div><div class="kpi-val">31<span class="kpi-unit">品目</span></div></div><div class="kpi"><div class="kpi-label">メニュー数</div><div class="kpi-val">7<span class="kpi-unit">品目</span></div></div><div class="kpi "><div class="kpi-label">平均原価率</div><div class="kpi-val">22.3<span class="kpi-unit">%</span></div></div><div class="kpi"><div class="kpi-label">平均粗利額</div><div class="kpi-val">1,314<span class="kpi-unit">円</span></div></div></div>
         <div class="sec"><span class="sec-title">メニュー原価一覧</span></div>
-        <div class="card" id="dash-menu-list"></div>
+        <div class="card" id="dash-menu-list"><div class="menu-row" data-mid="1"><div class="menu-row-left"><div class="menu-row-name">焼きそば 並盛り</div><div class="menu-row-sub"><span class="badge badge-yellow">標準 25.6%</span> &nbsp;原価 ¥268.34</div></div><div class="menu-row-right"><div class="menu-row-profit">¥781.66</div><div class="menu-row-rate" style="color:var(--ink3)">粗利率 74.4%</div></div></div><div class="menu-row" data-mid="2"><div class="menu-row-left"><div class="menu-row-name">焼きそば 大盛り</div><div class="menu-row-sub"><span class="badge badge-green">優良 19.9%</span> &nbsp;原価 ¥268.34</div></div><div class="menu-row-right"><div class="menu-row-profit">¥1,081.66</div><div class="menu-row-rate" style="color:var(--ink3)">粗利率 80.1%</div></div></div><div class="menu-row" data-mid="3"><div class="menu-row-left"><div class="menu-row-name">ごはんセット(並)</div><div class="menu-row-sub"><span class="badge badge-yellow">標準 25.4%</span> &nbsp;原価 ¥322.39</div></div><div class="menu-row-right"><div class="menu-row-profit">¥947.61</div><div class="menu-row-rate" style="color:var(--ink3)">粗利率 74.6%</div></div></div><div class="menu-row" data-mid="4"><div class="menu-row-left"><div class="menu-row-name">おにぎりセット(並)</div><div class="menu-row-sub"><span class="badge badge-green">優良 24.2%</span> &nbsp;原価 ¥333.66</div></div><div class="menu-row-right"><div class="menu-row-profit">¥1,046.34</div><div class="menu-row-rate" style="color:var(--ink3)">粗利率 75.8%</div></div></div><div class="menu-row" data-mid="5"><div class="menu-row-left"><div class="menu-row-name">揚げ餃子</div><div class="menu-row-sub"><span class="badge badge-green">優良 23.4%</span> &nbsp;原価 ¥103.04</div></div><div class="menu-row-right"><div class="menu-row-profit">¥336.96</div><div class="menu-row-rate" style="color:var(--ink3)">粗利率 76.6%</div></div></div><div class="menu-row" data-mid="6"><div class="menu-row-left"><div class="menu-row-name">ふりかけ 80g×6</div><div class="menu-row-sub"><span class="badge badge-green">優良 14.0%</span> &nbsp;原価 ¥670.4</div></div><div class="menu-row-right"><div class="menu-row-profit">¥4,129.6</div><div class="menu-row-rate" style="color:var(--ink3)">粗利率 86.0%</div></div></div><div class="menu-row" data-mid="7"><div class="menu-row-left"><div class="menu-row-name">焼そば並（マヨ</div><div class="menu-row-sub"><span class="badge badge-green">優良 23.8%</span> &nbsp;原価 ¥273.34</div></div><div class="menu-row-right"><div class="menu-row-profit">¥876.66</div><div class="menu-row-rate" style="color:var(--ink3)">粗利率 76.2%</div></div></div></div>
       </div>
       <div id="page-ing" class="page">
         <div class="search-bar"><input type="text" id="ing-search" placeholder="材料を検索…"></div>
@@ -300,7 +299,7 @@ input[type=range]{width:100%;accent-color:var(--red)}
     </div>
   </div>
 </div>
-<nav class="bottom-nav" id="bottom-nav"></nav>
+<nav class="bottom-nav" id="bottom-nav"><button class="nav-tab active" data-page="dash"><span class="nav-tab-icon">🏠</span><span class="nav-tab-label">ホーム</span></button><button class="nav-tab " data-page="ing"><span class="nav-tab-icon">📦</span><span class="nav-tab-label">材料</span></button><button class="nav-tab " data-page="menu"><span class="nav-tab-icon">🍜</span><span class="nav-tab-label">メニュー</span></button><button class="nav-tab " data-page="sim"><span class="nav-tab-icon">📊</span><span class="nav-tab-label">シミュレ</span></button><button class="nav-tab " data-page="rev"><span class="nav-tab-icon">🎯</span><span class="nav-tab-label">逆算</span></button><button class="nav-tab " data-page="set"><span class="nav-tab-icon">🧩</span><span class="nav-tab-label">セット</span></button></nav>
 <button class="fab" id="fab-btn">＋</button>
 
 <!-- Ingredient modal -->
@@ -558,7 +557,108 @@ function saveToFile(){
 function exportJSON(){const data={version:1,exportedAt:new Date().toISOString(),ings,menus,alerts,globalThresh};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`genka_navi_${new Date().toLocaleDateString('ja-JP').replace(/\//g,'-')}.json`;a.click();URL.revokeObjectURL(url);toast('💾 エクスポートしました');}
 function doImportJSON(file){const reader=new FileReader();reader.onload=e=>{try{const data=JSON.parse(e.target.result);if(!data.ings||!data.menus)throw new Error('フォーマットエラー');if(!confirm(`インポートします。\n材料 ${data.ings.length}件・メニュー ${data.menus.length}件\n現在のデータは上書きされます。`))return;ings=data.ings;menus=data.menus;alerts=data.alerts||{};globalThresh=data.globalThresh||35;nextIngId=ings.length?Math.max(...ings.map(i=>i.id))+1:1;nextMenuId=menus.length?Math.max(...menus.map(m=>m.id))+1:1;save();renderDash();toast('✅ インポートしました');}catch(err){toast('⚠️ ファイルが読み込めません');}};reader.readAsText(file);}
 function handleCSV(file){const reader=new FileReader();reader.onload=e=>{const lines=e.target.result.trim().split('\n').filter(l=>l.trim()&&!l.startsWith('#'));const parsed=[];const errors=[];lines.forEach((line,idx)=>{const cols=line.split(',').map(c=>c.trim());if(cols.length<7){errors.push(`行${idx+1}: 列数不足`);return;}const[name,cat,priceS,qtyS,bu,usageS,uu]=cols;const price=parseFloat(priceS),qty=parseFloat(qtyS),usage=parseFloat(usageS);if(!name||isNaN(price)||isNaN(qty)||isNaN(usage)){errors.push(`行${idx+1}: 数値エラー`);return;}parsed.push({name,cat:cat||'その他',price,qty,bu:bu||'g',usage,uu:uu||'g'});});csvPending=parsed;const el=document.getElementById('csv-preview-content');el.innerHTML=`<p style="font-size:13px;color:var(--ink2);margin-bottom:10px">${parsed.length}件をインポートします${errors.length?`（${errors.length}件エラー）`:''}</p>`+(errors.length?`<div class="alert" style="margin-bottom:10px">${errors.join('<br>')}</div>`:'')+parsed.slice(0,10).map(i=>`<div class="ing-row" style="padding:8px 0;border-bottom:1px solid var(--paper2)"><div class="ing-row-left"><div class="ing-row-name">${i.name}</div><div class="ing-row-cat">${i.cat}</div></div><div class="ing-row-right"><div class="ing-row-cost">${yenN(ingCost(i))}</div></div></div>`).join('')+(parsed.length>10?`<p style="font-size:11px;color:var(--ink3);margin-top:8px">他 ${parsed.length-10}件…</p>`:'');document.getElementById('modal-csv').classList.add('open');};reader.readAsText(file,'UTF-8');}
-function exportPDF(){if(!window.jspdf){const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';s.onload=()=>exportPDF();s.onerror=()=>toast('⚠️ PDF出力にはネット接続が必要です');document.head.appendChild(s);toast('📄 読み込み中…');return;}try{const{jsPDF}=window.jspdf;const doc=new jsPDF({orientation:'portrait',unit:'mm',format:'a4'});const now=new Date().toLocaleDateString('ja-JP',{year:'numeric',month:'long',day:'numeric'});doc.setFillColor(26,17,10);doc.rect(0,0,210,20,'F');doc.setTextColor(255,255,255);doc.setFontSize(13);doc.text('原価管理レポート',14,10);doc.setFontSize(8);doc.text(now,14,16);let y=28;doc.setTextColor(26,17,10);doc.setFontSize(11);doc.text('メニュー原価一覧',14,y);y+=5;doc.setFillColor(26,17,10);doc.rect(14,y,182,6,'F');doc.setTextColor(255,255,255);doc.setFontSize(8);['メニュー名','販売価格','材料原価','原価率','粗利額','粗利率'].forEach((h,i)=>{doc.text(h,[14,78,100,118,136,158][i]+1,y+4);});y+=6;doc.setTextColor(26,17,10);menus.forEach((m,idx)=>{const c=menuCost(m),r=m.price>0?c/m.price:0,p=m.price-c;if(idx%2===0){doc.setFillColor(247,244,240);doc.rect(14,y,182,6,'F');}doc.setFontSize(8);doc.text(m.name.substring(0,16),15,y+4);doc.text('¥'+m.price.toLocaleString(),79,y+4);doc.text('¥'+Math.round(c).toLocaleString(),101,y+4);doc.text((r*100).toFixed(1)+'%',119,y+4);doc.text('¥'+Math.round(p).toLocaleString(),137,y+4);doc.text(((1-r)*100).toFixed(1)+'%',159,y+4);y+=6;});doc.setFontSize(7);doc.setTextColor(156,126,110);doc.text('原価ナビ / '+now,14,287);doc.save(`原価レポート_${now}.pdf`);toast('📄 PDFを出力しました');}catch(e){toast('⚠️ '+e.message);}}
+function exportPDF(){
+  const now=new Date().toLocaleDateString('ja-JP',{year:'numeric',month:'long',day:'numeric'});
+  const avgRate=menus.length?menus.filter(m=>m.price>0).map(m=>menuCost(m)/m.price).reduce((a,b)=>a+b,0)/menus.filter(m=>m.price>0).length:0;
+  const avgProfit=menus.length?menus.map(m=>m.price-menuCost(m)).reduce((a,b)=>a+b,0)/menus.length:0;
+  const alertCount=menus.filter(m=>m.price>0&&menuCost(m)/m.price*100>alertThresh(m.id)).length;
+
+  const menuRows=menus.map((m,idx)=>{
+    const c=menuCost(m),r=m.price>0?c/m.price:0,p=m.price-c;
+    const over=r*100>alertThresh(m.id);
+    const ingNames=m.iids.map(id=>ings.find(x=>x.id===id)?.name||'').filter(Boolean).join('・');
+    return `<tr style="background:${idx%2===0?'#faf6f2':'#fff'}${over?';border-left:3px solid #C8401A':''}">
+      <td style="padding:6px 8px;font-weight:700;${over?'color:#C8401A':''}">${m.name}${over?' ⚠':''}</td>
+      <td style="padding:6px 8px;text-align:right">¥${m.price.toLocaleString()}</td>
+      <td style="padding:6px 8px;text-align:right">¥${Math.round(c).toLocaleString()}</td>
+      <td style="padding:6px 8px;text-align:right;font-weight:700;color:${r<=0.25?'#1A6B3C':r<=0.35?'#A0720A':'#C8401A'}">${(r*100).toFixed(1)}%</td>
+      <td style="padding:6px 8px;text-align:right;color:#1A6B3C;font-weight:700">¥${Math.round(p).toLocaleString()}</td>
+      <td style="padding:6px 8px;text-align:right;color:#1A6B3C">${((1-r)*100).toFixed(1)}%</td>
+      <td style="padding:6px 8px;font-size:9px;color:#5A3E2E;max-width:160px">${ingNames}</td>
+    </tr>`;
+  }).join('');
+
+  const ingRows=ings.map((i,idx)=>{
+    const c=ingCost(i);
+    return `<tr style="background:${idx%2===0?'#faf6f2':'#fff'}">
+      <td style="padding:5px 8px;font-weight:700">${i.name}</td>
+      <td style="padding:5px 8px;text-align:center;font-size:9px;color:#5A3E2E">${i.cat}</td>
+      <td style="padding:5px 8px;text-align:right">¥${i.price.toLocaleString()}</td>
+      <td style="padding:5px 8px;text-align:right">${i.qty}${i.bu}</td>
+      <td style="padding:5px 8px;text-align:right">${i.usage}${i.uu}</td>
+      <td style="padding:5px 8px;text-align:right;font-weight:700;color:#C8401A">¥${c.toFixed(2)}</td>
+    </tr>`;
+  }).join('');
+
+  const html=`<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
+  <title>原価管理レポート ${now}</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic UI','Meiryo',sans-serif;font-size:11px;color:#1A110A;background:#fff;padding:16mm 14mm}
+    h1{font-size:18px;font-weight:900;color:#1A110A;margin-bottom:4px}
+    .meta{font-size:10px;color:#9C7E6E;margin-bottom:16px}
+    .kpi-row{display:flex;gap:12px;margin-bottom:20px}
+    .kpi{flex:1;border:1px solid #E8DDD5;border-radius:8px;padding:10px 14px;background:#FAF6F2}
+    .kpi-label{font-size:9px;font-weight:700;color:#9C7E6E;letter-spacing:.06em;margin-bottom:4px}
+    .kpi-val{font-size:20px;font-weight:700;color:#1A110A}
+    .kpi-val.warn{color:#C8401A}
+    .kpi-unit{font-size:10px;color:#9C7E6E;margin-left:2px;font-weight:400}
+    h2{font-size:13px;font-weight:900;color:#1A110A;margin:20px 0 8px;padding-bottom:4px;border-bottom:2px solid #1A110A;letter-spacing:.04em}
+    table{width:100%;border-collapse:collapse;font-size:10px}
+    thead tr{background:#1A110A}
+    thead th{color:rgba(255,255,255,.9);padding:7px 8px;font-weight:700;font-size:9px;letter-spacing:.04em}
+    thead th:not(:first-child){text-align:right}
+    thead th:last-child{text-align:left}
+    tbody tr:hover{background:#F2EBE4}
+    .footer{margin-top:24px;padding-top:8px;border-top:1px solid #E8DDD5;font-size:9px;color:#9C7E6E;display:flex;justify-content:space-between}
+    @media print{body{padding:10mm 12mm}@page{size:A4;margin:10mm}}
+  </style>
+  </head><body>
+  <h1>原価管理レポート</h1>
+  <div class="meta">想夫恋 宇美店 ／ 出力日: ${now}</div>
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-label">登録材料</div><div class="kpi-val">${ings.length}<span class="kpi-unit">品目</span></div></div>
+    <div class="kpi"><div class="kpi-label">メニュー数</div><div class="kpi-val">${menus.length}<span class="kpi-unit">品目</span></div></div>
+    <div class="kpi"><div class="kpi-label">平均原価率</div><div class="kpi-val ${alertCount>0?'warn':''}">${(avgRate*100).toFixed(1)}<span class="kpi-unit">%</span></div></div>
+    <div class="kpi"><div class="kpi-label">平均粗利額</div><div class="kpi-val">${Math.round(avgProfit).toLocaleString()}<span class="kpi-unit">円</span></div></div>
+    <div class="kpi"><div class="kpi-label">アラート</div><div class="kpi-val ${alertCount>0?'warn':''}">${alertCount}<span class="kpi-unit">件</span></div></div>
+  </div>
+  <h2>📋 メニュー原価一覧</h2>
+  <table>
+    <thead><tr>
+      <th style="text-align:left">メニュー名</th>
+      <th>販売価格</th><th>材料原価</th><th>原価率</th><th>粗利額</th><th>粗利率</th>
+      <th style="text-align:left">使用材料</th>
+    </tr></thead>
+    <tbody>${menuRows}</tbody>
+  </table>
+  <h2>📦 材料マスタ一覧</h2>
+  <table>
+    <thead><tr>
+      <th style="text-align:left">材料名</th>
+      <th style="text-align:center">カテゴリ</th>
+      <th>購入価格</th><th>購入数量</th><th>使用量</th><th>1食原価</th>
+    </tr></thead>
+    <tbody>${ingRows}</tbody>
+  </table>
+  <div class="footer">
+    <span>原価ナビ / 想夫恋 宇美店</span>
+    <span>${now} 出力</span>
+  </div>
+  <script>window.onload=()=>{window.print();}<\/script>
+  </body></html>`;
+
+  const blob=new Blob([html],{type:'text/html;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const w=window.open(url,'_blank');
+  if(!w){
+    const a=document.createElement('a');a.href=url;a.download=`原価レポート_${now}.html`;a.click();
+    toast('📄 ファイルを開いて印刷→PDFで保存してください');
+  } else {
+    toast('📄 印刷ダイアログが開きます');
+  }
+  setTimeout(()=>URL.revokeObjectURL(url),10000);
+}
 function closeModal(id){document.getElementById(id).classList.remove('open');}
 document.querySelectorAll('.modal-bg').forEach(el=>el.addEventListener('click',e=>{if(e.target===el)el.classList.remove('open');}));
 function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._timer);t._timer=setTimeout(()=>t.classList.remove('show'),2400);}
@@ -596,5 +696,6 @@ document.getElementById('ing-search').addEventListener('input',renderIngPage);
 // Boot
 load();buildNav();renderDash();
 </script>
-</body>
-</html>
+
+
+</body></html>
